@@ -1,0 +1,41 @@
+{
+  "api": {
+    "name": "SignalStrengthPlugin",
+    "slug": "signalstrengthplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "echo",
+        "signature": "(options: { value: string; }) => Promise<{ value: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ value: string; }"
+          }
+        ],
+        "returns": "Promise<{ value: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "echo"
+      },
+      {
+        "name": "dbm",
+        "signature": "() => Promise<{ measuredDbm: number; }>",
+        "parameters": [],
+        "returns": "Promise<{ measuredDbm: number; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "dbm"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
